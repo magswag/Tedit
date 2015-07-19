@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/shar"
+        android:title="Share on Instagram"
+        android:icon="@drawable/instag"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/share"
+        android:title="Share this app with your friends!"
+        android:icon="@drawable/ic_chat_white_24dp"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+
+
+    <item android:id="@+id/new_game"
+        android:icon="@drawable/ic_save_white_24dp"
+        android:title="Save"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>

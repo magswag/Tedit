@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCustomBarAction" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/AcBar</item>
+        </style>
+    <style name="AcBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#990000</item>
+
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tedit</string>
+<string name="main_colorfilters">COLOR FILTERS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Info</string>
+    <string name="action_rate">Rate</string>
+    <string name="title_activity_help">help</string>
+    <string name="main_example">Example</string>
+    <string name="title_activity_launch">launch</string>
+    <string name="error">Error!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_edittext">edittext</string>
+</resources>

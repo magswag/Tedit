@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="yolotopgames.edit.help">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="What is Edit?"
+                android:id="@+id/textView2"
+                android:textSize="45dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Edit is an app for photo editing..."
+                android:id="@+id/textView3"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/textView2"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Quick start..."
+                android:id="@+id/textView4"
+                android:textSize="45dp"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:singleLine="true"
+                android:layout_below="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="At first, start the editor..."
+                android:id="@+id/textView5"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/textView4"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/start_im"
+                android:layout_below="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Then, import a pic or take one by clicking on the gallery image in the background..."
+                android:id="@+id/textView"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/imageView5"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView6"
+                android:layout_below="@+id/textView"
+                android:src="@drawable/start_dialog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Now you can change the text by clicking the big &quot;T&quot;- button..."
+                android:id="@+id/textView8"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/imageView6"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView"
+                android:layout_below="@+id/textView8"
+                android:src="@drawable/texthelp"
+                android:layout_marginTop="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="In this box, you can type in whatever you want..."
+                android:id="@+id/textView9"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/imageView"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView7"
+                android:layout_below="@+id/textView9"
+                android:src="@drawable/texttypein"
+                android:layout_marginTop="0dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView8"
+                android:layout_below="@+id/imageView7"
+                android:src="@drawable/txton"
+                android:layout_marginTop="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Now you can press the &quot;Set text&quot;- button..."
+                android:id="@+id/textView10"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/imageView8"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView9"
+                android:layout_below="@+id/textView10"
+                android:src="@drawable/sttxtb"
+                android:layout_marginTop="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="And...Voila! "
+                android:id="@+id/textView11"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="false"
+                android:layout_below="@+id/imageView9"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView10"
+                android:layout_below="@+id/textView11"
+                android:src="@drawable/voila"
+                android:layout_marginTop="0dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
